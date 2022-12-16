@@ -1,0 +1,40 @@
+table {
+  border-spacing: 0 0;
+  border-collapse: collapse;
+}
+table th,
+table td {
+  border: 2px solid #2f2c2c;
+  padding: 0.25rem 0.5rem;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+fieldset{
+    border: 2px solid #2f2c2c;
+}
+span{
+    color: red;
+}
+div.style_label {
+    padding-bottom: 5px;
+  }
+
+  .style_label {
+    clear:both; 
+    text-align:right;
+}
+label {
+    float:left;
+    padding-right: .3rem;
+}
+.main {
+    float:left;
+}
+.size_form_item{
+    width: 15rem;
+}
+input, textarea {
+    border:1px solid black;
+}
