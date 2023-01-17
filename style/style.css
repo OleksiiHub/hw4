@@ -45,8 +45,8 @@ textarea {
   border: 2px solid black;
 }
 input:invalid {
-    border-color: red;
-  }
+  border-color: red;
+}
 .btn {
   background: #0048d9;
   border-radius: 6px;
@@ -66,4 +66,5 @@ td + td{
 }
 select{
     padding: 2px;
+    
 }
