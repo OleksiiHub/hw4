@@ -57,14 +57,16 @@ input:invalid {
 .btn:hover{
     box-shadow: 2px 2px 2px 2px #0048d955;
 }
-.style_select{
+/* .style_select{
     background: ;
-}
+} */
 td + td{
     color: #0048d9;
 
 }
 select{
-    padding: 2px;
-    
+    appearance: none;
+    padding: .1rem;
+    min-width: 10rem;
+    background: url('./arrow_drop.png') no-repeat center right .1rem;
 }
