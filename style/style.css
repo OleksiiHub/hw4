@@ -1,30 +1,31 @@
-
 table {
   border-spacing: 0 0;
   border-collapse: collapse;
+  width: 100%;
 }
 table th,
 table td {
-  border: 2px solid #2f2c2c;
+  border: 1px solid #2f2c2c;
   padding: 0.25rem 0.5rem;
-  border-color:#0048d9;
+  border-color: #0048d9;
 }
 .container {
-    max-width: 1024px;
+  max-width: 1024px;
   width: 80%;
   margin: 0 auto;
 }
 fieldset {
-  border: 2px solid #2f2c2c;
+  border: 1px solid #2f2c2c;
   border-color: #0048d9;
+  margin: 0;
 }
+
 span {
   color: red;
 }
 div.style_label {
   padding-bottom: 5px;
 }
-
 .style_label {
   clear: both;
   text-align: right;
@@ -42,7 +43,7 @@ label {
 
 input,
 textarea {
-  border: 2px solid black;
+  border: 1px solid black;
 }
 input:invalid {
   border-color: red;
@@ -52,21 +53,20 @@ input:invalid {
   border-radius: 6px;
   width: 100px;
   height: 38px;
-  color: wheat
+  color: wheat;
 }
-.btn:hover{
-    box-shadow: 2px 2px 2px 2px #0048d955;
+.btn:hover {
+  box-shadow: 2px 2px 2px 2px #0048d955;
 }
 /* .style_select{
     background: ;
 } */
-td + td{
-    color: #0048d9;
-
+td + td {
+  color: #0048d9;
 }
-select{
-    appearance: none;
-    padding: .1rem;
-    min-width: 10rem;
-    background: url('./arrow_drop.png') no-repeat center right .1rem;
+select {
+  appearance: none;
+  padding: 0.1rem;
+  min-width: 10rem;
+  background: url("./arrow_drop.png") no-repeat center right 0.1rem;
 }
