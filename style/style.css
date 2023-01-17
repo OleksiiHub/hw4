@@ -37,7 +37,10 @@ label {
   float: left;
 }
 .size_form_item {
-  width: 248px;
+  width: 258px;
+}
+.style_select{
+  width: 266px;
 }
 input,
 textarea {
