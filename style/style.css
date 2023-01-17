@@ -70,3 +70,6 @@ select {
   min-width: 10rem;
   background: url("./arrow_drop.png") no-repeat center right 0.1rem;
 }
+.text_center {
+  text-align: center;
+}
