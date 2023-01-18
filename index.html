@@ -4,69 +4,145 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HomeWork_4</title>
-    <link rel="stylesheet" href="./style/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style/style.css" />
+    <title>Document</title>
   </head>
   <body>
-    <main>
-      <section class="container">
-        <div class="text_center">
-          <h1>Hire me</h1>
-          <h4>Contact information</h4>
+    <main class="d-flex">
+      <div class="style_color_left">
+        <div>
+          <div class="logo">
+            <h1>
+              <p>Oleksii</p>
+              <p>Buntikov</p>
+            </h1>
+          </div>
+
+          <img src="./img/IMG_0030.jpeg" alt="foto" />
+          <div class="style_contact_left">
+            <h3>Contact</h3>
+            <h4>Address</h4>
+            <p><span class="contact_style">Kharkiv, Ukraine</span></p>
+            <h4>Phone:</h4>
+            <p><span class="contact_style">+380660000000</span></p>
+            <h4>E-mail</h4>
+            <a href="#"
+              ><span class="contact_style">buntikovaleksey@gmail.com</span></a
+            >
+            <h4>LinkedIn</h4>
+            <a href="https://www.linkedin.com/"
+              ><span class="contact_style">https://www.linkedin.com</span></a
+            >
+            <h3 class="languages_margin">Languages</h3>
+            <p class="style_languages style_languages_margin">
+              Ukrainian - Native
+            </p>
+            <p class="style_languages">English - B1</p>
+          </div>
         </div>
-        <table>
-          <tbody>
-            <tr>
-              <td><b>Phone</b></td>
-              <td>+380661231231</td>
-            </tr>
-            <tr>
-              <td><b>Address</b></td>
-              <td>Somewhere in Ukraine</td>
-            </tr>
-          </tbody>
-        </table>
-        <form action="">
-          <fieldset>
-            <legend>Contact form</legend>
-            <div class="main">
-              <div class="style_label">
-                <label for="email">E-mail<span>*</span>:</label>
-                <input
-                  class="size_form_item"
-                  required
-                  id="email"
-                  type="email"
-                  placeholder="Enter your e-mail"
-                />
-              </div>
-              <div class="style_label">
-                <label for="descr">Description:</label>
-                <textarea
-                  class="size_form_item"
-                  name="description"
-                  id="descr"
-                  cols="25"
-                  rows="5"
-                ></textarea>
-              </div>
-              <br />
-              <div class="style_label">
-                <label for="w_type">Work type:</label>
-                <select class="style_select" name="" id="w_type">
-                  <option value="">Work in home</option>
-                  <option value="">Work in office</option>
-                  <option value="">Full-time</option>
-                </select>
-              </div>
-              <br />
-              <br />
-              <input class="btn" type="submit" value="Hire me" />
-            </div>
-          </fieldset>
-        </form>
-      </section>
+      </div>
+      <div class="style_right">
+        <h2>Summary</h2>
+        <p class="dscr_style">
+          I'm a Software Engineer with 10 years of experience and all this time
+          I've been helping businesses to reach their goals by using modern (and
+          sometimes outdated) technologies. For this time I've been working in
+          different technical sides of products and have experience with
+          back-end (PHP), front-end (JS, TypeScript, React, Angular), and mobile
+          (React Native).
+        </p>
+        <h2>Skills Highlights</h2>
+        <div class="style_skills">
+          <div class="col-50">
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>React</li>
+            </ul>
+          </div>
+          <div class="col-50">
+            <ul>
+              <li>Bootstrap</li>
+              <li>Git</li>
+              <li>SASS SCSS LESS</li>
+              <li>Gulp, БЭМ?</li>
+            </ul>
+          </div>
+        </div>
+        <h2>Work Experience</h2>
+        <div>
+          <p class="exp_style">
+            Name of employer:
+            <span class="exp_style_font-weight"
+              >ТОВ "ФМ Хладопром"(Харьков, Мариуполь)</span
+            >
+          </p>
+          <p class="exp_style">
+            Dates of employment:
+            <span class="exp_style_font-weight">2019-2021</span>
+          </p>
+          <p class="exp_style">
+            Job title:
+            <span class="exp_style_font-weight"
+              >Начальник торгового отдела</span
+            >
+          </p>
+          <p class="exp_style">
+            Project/Role description:
+            <span class="exp_style_font-weight">
+              Подбор и обучение персонала, продвижение продукции, заключение
+              контрактов, маркетинг, реклама, логистика, контроль дебиторской
+              задолжености, отчетность.
+            </span>
+          </p>
+        </div>
+        <div>
+          <p class="exp_style exp_style_padding-top">
+            Name of employer:
+            <span class="exp_style_font-weight"
+              >Viciunai Group(Харьков, Харьковская обл.</span
+            >
+          </p>
+          <p class="exp_style">
+            Dates of employment:
+            <span class="exp_style_font-weight">2021-2022</span>
+          </p>
+          <p class="exp_style">
+            Job title:
+            <span class="exp_style_font-weight">Территориальный менеджер</span>
+          </p>
+          <p class="exp_style">
+            Project/Role description:
+            <span class="exp_style_font-weight"
+              >Заключение контрактов, маркетинг, контроль дебиторской
+              задолжености, подключение дистрибьюторов, обучение торговой
+              команды дистрибьютора, поиск новых каналов збыта.
+            </span>
+          </p>
+        </div>
+        <h2>Education</h2>
+        <p>
+          Dates of studying:
+          <span class="education_style">c 2022 – по 2023</span>
+        </p>
+        <p>
+          Name of institution:
+          <span class="education_style"
+            >robotdreams Ihor Tymofieiev & Victor Kondalovsky</span
+          >
+        </p>
+        <p>
+          Degree and major:
+          <span class="education_style">JavaScript developer</span>
+        </p>
+      </div>
     </main>
   </body>
 </html>
