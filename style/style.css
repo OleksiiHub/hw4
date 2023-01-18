@@ -33,6 +33,11 @@ h4 {
   line-height: 29px;
   margin: 31px 0 11px 0px;
 }
+.flex {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
 .contact_style {
   font-size: 16px;
   line-height: 19px;
@@ -106,3 +111,10 @@ ul {
 .education_style {
   font-weight: 400;
 }
+a.btn {
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 1.2rem;
+  color: #000;
+}
+
