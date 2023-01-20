@@ -41,6 +41,7 @@ h4 {
 .contact_style {
   font-size: 16px;
   line-height: 19px;
+  max-width: 289px;
 }
 .style_color_left {
   background: #86a3b4;
@@ -75,6 +76,7 @@ p {
 }
 .style_right {
   margin: 28px 0 0 55px;
+  max-width: 760px;
 }
 .dscr_style {
   font-size: 16px;
@@ -84,6 +86,9 @@ p {
 }
 .style_skills {
   display: flex;
+  justify-content: flex-start;
+  gap: 50%;
+  max-width: 720px;
 }
 ul {
   padding: 0;
@@ -116,5 +121,22 @@ a.btn {
   border-radius: 5px;
   padding: 1.2rem;
   color: #000;
+}
+.pos_rel{
+  position: relative;
+}
+.pos_fix_right{
+  position: fixed;
+  left: 400px;
+}
+.pos_fix_left{
+  position: fixed;
+}
+.pos_left:hover{
+  position: absolute;
+}
+.pos_right:hover{
+  position: absolute;
+  left: 400px;
 }
 
