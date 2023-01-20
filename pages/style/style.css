@@ -9,10 +9,16 @@ table td {
   padding: 0.25rem 0.5rem;
   border-color: #0048d9;
 }
+main{
+  position: relative;
+}
 .container {
+  position: absolute;
+  left: 50%;                        
+  transform: translate(-50%, 0);
   max-width: 1024px;
   width: 80%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 fieldset {
   border: 1px solid #2f2c2c;
@@ -54,8 +60,12 @@ input:invalid {
   background: #0048d9;
   border-radius: 6px;
   width: 100px;
-  height: 38px;
-  color: wheat;
+  color: rgba(252, 252, 252, 0.662);
+  padding: .4rem;
+  text-align: center;
+}
+a{
+  text-decoration: none;
 }
 .btn:hover {
   box-shadow: 2px 2px 2px 2px #0048d955;
