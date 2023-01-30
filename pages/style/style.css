@@ -38,7 +38,6 @@ label {
 }
 .size_form_item {
   width: 258px;
-  margin-bottom: .8rem;
 }
 .style_select{
   width: 266px;
@@ -48,11 +47,28 @@ textarea {
   border: 1px solid black;
   padding: 0.2rem;
 }
-input:invalid {
+
+input:valid:not(:placeholder-shown) {
+  border-color: green;
+}
+
+input:invalid:not(:placeholder-shown) {
   border-color: red;
 }
-input:valid{
-  border-color: green;
+input:invalid:not(:placeholder-shown) + .form__error {
+  display: block;
+}
+.form__field {
+  margin-bottom: 10px;
+}
+.form__error {
+  color: red;
+  text-align: left;
+  font-size: 12px;
+  display: block;
+  margin-top: 3px;
+  display: none;
+
 }
 .btn {
   background: #0048d9;
@@ -82,6 +98,15 @@ select {
 .text_center {
   text-align: center;
 }
-
-
+/* .error_text{
+  position: relative;
+}
+.error_text:before{
+  position: absolute;
+  content: "Error message";
+  color:red;
+  top: 26px;
+  right: 193px;
+  font-size: 12px;
+} */
 

@@ -31,15 +31,18 @@
           <fieldset>
             <legend>Contact form</legend>
             <div class="main">
-              <div class="style_label exciting-text">
+              <div class="style_label error_text">
                 <label for="email" class="">E-mail<span>*</span>:</label>
-                <input
-                  class="size_form_item"
-                  required
-                  id="email"
-                  type="email"
-                  placeholder="Enter your e-mail"
-                />
+                <div class="form__field">
+                  <input
+                    class="size_form_item"
+                    required
+                    id="email"
+                    type="email"
+                    placeholder="Enter your e-mail"
+                  />
+                  <span class="form__error">Error message</span>
+                </div>
               </div>
               <div class="style_label">
                 <label for="descr">Description:</label>
@@ -64,7 +67,6 @@
               <br />
               <button type="submit" class="btn">Hire me</button>
               <!-- <a href="./pages/index.html" type="submit" class="btn">Hire me</a> -->
-              
             </div>
           </fieldset>
         </form>
