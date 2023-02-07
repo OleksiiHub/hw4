@@ -11,7 +11,7 @@ table td {
 }
 .container {
   max-width: 1024px;
-  width: 80%;
+  /* width: 80%; */
   margin: 0 auto;
 }
 fieldset {
@@ -46,6 +46,9 @@ input,
 textarea {
   border: 1px solid black;
   padding: 0.2rem;
+  border-radius: 5px;
+  background:#f8fafc78;
+
 }
 
 input:valid:not(:placeholder-shown) {
@@ -72,7 +75,7 @@ input:invalid:not(:placeholder-shown) + .form__error {
 }
 .btn {
   background: #0048d9;
-  border-radius: 6px;
+  border-radius: 5px;
   width: 100px;
   height: 38px;
   color: wheat;
@@ -90,9 +93,11 @@ td + td {
   color: #0048d9;
 }
 select {
+
   appearance: none;
   padding: 0.2rem;
   min-width: 10rem;
+  border-radius:5px;
   background: url("./arrow_drop.png") no-repeat center right 0.1rem;
 }
 .text_center {
