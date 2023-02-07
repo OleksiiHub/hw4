@@ -58,13 +58,13 @@ input:invalid{
   border-color:red;
 }
 input:invalid + span::before {
-  border-color:red;
+  /* border-color:red; */
   content: "Error";
   color: red;
 }
 
 input:valid + span::before {
-  border-color:green;
+  /* border-color:green; */
   content: "Success";
   color: green;
 }
